@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../udemy"
+		},
+		{
+			"name": "node-crash-course",
+			"path": "../udemy/node-crash-course"
+		}
+	],
+	"settings": {}
+}

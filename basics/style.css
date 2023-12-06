@@ -1,0 +1,9 @@
+#container {
+  height: 300px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  color: #eee;
+}

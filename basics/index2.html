@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- From 3dexperience Hackathon.pdf Page 15 -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <p>Click the button to wait 1 second, then alert "Hello".</p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+      function myFunction() {
+        var a = 10;
+        setTimeout(function () {
+          alert("Hello");
+        }, 1000);
+        a = a + 20;
+        console.log(a);
+      }
+    </script>
+  </body>
+</html>

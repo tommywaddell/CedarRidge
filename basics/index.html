@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- From 3dexperience Hackathon.pdf Page 20 -->
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:widget="http://www.netvibes.com/ns/"
+  lang="en"
+>
+  <head>
+    <!-- Application meta data -------------------------------------------------->
+    <title>Hello, Widget!</title>
+    <meta charset="UTF-8" />
+    <meta name="debugMode" content="true" />
+    <!-- Application JS --------------------------------------------------------->
+    <script type="text/javascript">
+      var MyWidget = {
+        greeting: "Hello World!",
+        onLoad: function () {
+          MyWidget.sayHello();
+        },
+        sayHello: function () {
+          widget.setBody(MyWidget.greeting);
+        },
+      };
+      widget.addEvent("onLoad", MyWidget.onLoad);
+    </script>
+  </head>
+  <body>
+    <p>Loading...</p>
+  </body>
+</html>
